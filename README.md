@@ -9,3 +9,5 @@ EnzHier consists of four modules in order:
 2. Sample Selection: The process identifies anchor (Anchor), positive (Positive), and negative (Negative) samples for contrastive learning, where positive samples share the same EC number as the anchor, while negative samples differ.
 3. Margin Adjustment: Margins are adjusted based on the hierarchical structure of EC numbers, with higher-level EC numbers receiving larger margins for effective functional distinction.
 4. Loss Calculation: The loss function, derived from geometric distances between triplets and adjusted margins, aims to minimize the distance between anchor and positive samples while maximizing the distance between anchor and negative samples, with margins dynamically adjusted during training to enhance the model's ability to discern finer functional distinctions.
+
+[Author et al. (Year)](https://link-to-paper) - Description of the work.
