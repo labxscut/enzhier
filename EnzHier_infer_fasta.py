@@ -66,7 +66,7 @@ def main():
     # inferred results is in
     # results/[args.fasta_data].csv
     infer_maxsep2(train_data, test_data, report_metrics=False, pretrained=False, 
-                  gmm = './data/pretrained/gmm_ensumble.pkl', model_name='split100_triplet_withEC_7000')
+                  gmm = './data/pretrained/gmm_ensumble.pkl', model_name='trained model')
     # removing dummy csv file
     os.remove("data/"+ test_data +'.csv')
     
