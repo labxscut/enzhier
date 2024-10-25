@@ -10,4 +10,4 @@ EnzHier consists of four modules in order:
 3. Margin Adjustment: Margins are adjusted based on the hierarchical structure of EC numbers, with higher-level EC numbers receiving larger margins for effective functional distinction.
 4. Loss Calculation: The loss function, derived from geometric distances between triplets and adjusted margins, aims to minimize the distance between anchor and positive samples while maximizing the distance between anchor and negative samples, with margins dynamically adjusted during training to enhance the model's ability to discern finer functional distinctions.
 
-[Author et al. (Year)](https://link-to-paper) - Description of the work.
+The network architecture for contrastive learning is inspired by the work presented in [Enzyme function prediction using contrastive learning](https://www.science.org/doi/full/10.1126/science.adf2465), which outlines key methodologies and findings relevant to our approach.
