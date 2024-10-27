@@ -2,7 +2,7 @@
 ## Summary
 EnzHier is a novel machine-learning model integrating contrastive learning with hierarchical triplet loss to utilize the functional relationships encoded in EC numbers.
 
-![image](https://github.com/user-attachments/assets/2fc199a2-4c74-426d-851d-6fa83e767506)
+![m](https://github.com/user-attachments/assets/a5bc8819-30c5-43cf-977f-2b6ff34a13d6)
 
 EnzHier consists of four modules in order:
 1. Sequence Encoding: A protein language model encodes amino acid sequences into embedding vectors.
